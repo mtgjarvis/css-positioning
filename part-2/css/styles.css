@@ -52,7 +52,6 @@ img {
   font-size: 30px;
 }
 
-
 .action-watch-later {
   box-sizing: content-box;
   text-align: right;
@@ -63,8 +62,6 @@ img {
   top: 8px;
   right: 8px;
 }
-
-
 
 .film-details {
   position: absolute;
@@ -81,5 +78,6 @@ img {
   position: absolute;
   bottom: 8px;
   right: 8px;
+  z-index: 1;
 }
 
