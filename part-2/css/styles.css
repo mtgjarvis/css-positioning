@@ -1,7 +1,7 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 
 html {
@@ -13,6 +13,7 @@ html {
 
 body {
   margin: 0;
+  position: absolute;
 }
 
 img {
@@ -24,6 +25,61 @@ figure {
 }
 
 .film {
-  width: 50%;
+  box-sizing: border-box;
+  width: 100%;
   margin: 40px auto;
+  display: inline-block;
+  border: 2px solid lightgray;
+  padding: 20px;
+  position: relative;
 }
+
+img {
+  position: relative;
+}
+
+.film-poster {
+  display: inline-block;
+  width: 48%;
+  margin: 0 10 0 10;
+  position: relative;
+  /* padding-left: 20px; */
+}
+
+.film-title {
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+
+.action-watch-later {
+  box-sizing: content-box;
+  text-align: right;
+  margin: 0;
+  z-index: 1;
+  color: red;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+
+
+.film-details {
+  position: absolute;
+  display: inline-block;
+  margin-left: 10px;
+  padding: 0 0 0 20px;
+  width: 48%;
+  margin: 0;
+}
+
+.action-like {
+  box-sizing: content-box;
+  color: red;
+  position: absolute;
+  
+  bottom: 8px;
+  right: 8px;
+}
+
