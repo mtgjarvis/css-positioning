@@ -14,6 +14,7 @@ html {
 body {
   margin: 0;
   position: absolute;
+  padding: 20px;
 }
 
 img {
@@ -78,7 +79,6 @@ img {
   box-sizing: content-box;
   color: red;
   position: absolute;
-  
   bottom: 8px;
   right: 8px;
 }
